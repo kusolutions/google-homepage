@@ -1,0 +1,51 @@
+.img {
+    margin: 0 auto; 
+    width: 10px; 
+    position: relative; 
+    top: 240px; 
+    right: -410px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .mainnav {
+    margin: 0 auto;
+    position: relative;
+    display: left;
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    width: 25%;
+    top: 260px;
+    left: 620px;
+    border-radius: 20px;
+  }
+  
+  .round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+  
+  .corner {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background: #000; 
+  }
+  
+  .search {
+    position: relative;
+    width: 190px;
+    height: 30px;
+  }
