@@ -1,24 +1,51 @@
-.img {
-    margin: 0 auto; 
-    width: 10px; 
-    position: relative; 
-    top: 240px; 
-    right: -410px;
-    width: 100%;
-    max-width: 100%;
+
+  ul {
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+
   }
-  
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  a.about {
+
+
+  }
+
+  a:hover {
+    border-bottom: 0.5px solid;
+  }
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .googleimage {
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    width: 50%;
+    
+  }
+
   .mainnav {
     margin: 0 auto;
     position: relative;
     display: left;
     color: black;
-    text-align: left;
+    text-align: middle;
     font-size: 14px;
     width: 25%;
     top: 260px;
     left: 620px;
-    border-radius: 20px;
+    border-radius: 10x;
   }
   
   .round {
@@ -30,8 +57,8 @@
     top: 0;
     left: 0;
     z-index: 5;
-  }
-  
+  } */
+   
   .corner {
     position: absolute;
     top: 3px;
