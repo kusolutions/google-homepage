@@ -6,19 +6,51 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  position: relative;
 
   }
   a {
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    color: rgb(39, 38, 38);
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  
+  .first {
+    text-align: left;
+    position: relative;
+    bottom: 170px;
+    margin-left: 15px;
+
   }
 
-  
+  .second {
+    text-align: left;
+    position: relative;
+    bottom: 170px;
+    left: 100px;
+  }
+
+  .third {
+    position: relative;
+    text-align: right;
+    bottom: 170px;
+    right: 300px;
+}
+
+  .fourth {
+    position: relative;
+    text-align: right;
+    bottom: 170px;
+    right: 220px;
+}
+
 
   a:hover {
     border-bottom: 0.5px solid;
   }
+
+  
   .responsive {
     max-width: 100%;
     height: auto;
@@ -40,7 +72,7 @@
   }
 
   .round {
-    width: 60%;
+    width: 30%;
     border-radius: 20px;
     border: 1px grey solid;
     padding: 8px 8px 5px 31px;
@@ -48,8 +80,8 @@
     margin: auto;
     height: 31px;
     font-size: 25px;
-    top: 355px;
-    left: 575px;
+    top: 240px;
+    left: 700px;
   }
   input:hover {
     box-shadow: 1px 1px 3px grey;
@@ -90,7 +122,6 @@
   .search {
     position: relative;
     width: 190px;
-    height: 30px;
+    height: 50px;
   }
-  .gLFyf
-  {background-color:transparent;border:none;margin:0;padding:0;color:rgba(0,0,0,.87);word-wrap:break-word;outline:none;display:flex;flex:100%;-webkit-tap-highlight-color:transparent;margin-top:-37px;height:34px;font-size:16px}.minidiv .gLFyf{margin-top:-35px;}.a4bIc{display:flex;flex:1;flex-wrap:wrap}.pR49Ae{color:transparent;flex:100%;white-space:pre;height:34px}.pR49Ae span{background:url("/images/experiments/wavy-underline.png") repeat-x scroll 0 100% transparent;padding:0 0 10px 0;}
+  
