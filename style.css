@@ -14,10 +14,7 @@
     font-size: 20px;
   }
 
-  a.about {
-
-
-  }
+  
 
   a:hover {
     border-bottom: 0.5px solid;
@@ -32,7 +29,35 @@
     max-height: 100%;
     max-width: 100%;
     width: 50%;
-    
+    height: 50%;
+    display: -webkit-inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 300px;
+    left: 250px;
+  }
+
+  .round {
+    width: 60%;
+    border-radius: 20px;
+    border: 1px grey solid;
+    padding: 8px 8px 5px 31px;
+    position: relative;
+    margin: auto;
+    height: 31px;
+    font-size: 25px;
+    top: 355px;
+    left: 575px;
+  }
+  input:hover {
+    box-shadow: 1px 1px 3px grey;
+  }
+  .round input {
+    position: absolute;
+    height: 50px;
+    width: 50px; 
   }
 
   .mainnav {
@@ -48,16 +73,7 @@
     border-radius: 10x;
   }
   
-  .round {
-    width: 100%;
-    border-radius: 15px;
-    border: 1px #000 solid;
-    padding: 5px 5px 5px 25px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
-  } */
+  
    
   .corner {
     position: absolute;
@@ -76,3 +92,5 @@
     width: 190px;
     height: 30px;
   }
+  .gLFyf
+  {background-color:transparent;border:none;margin:0;padding:0;color:rgba(0,0,0,.87);word-wrap:break-word;outline:none;display:flex;flex:100%;-webkit-tap-highlight-color:transparent;margin-top:-37px;height:34px;font-size:16px}.minidiv .gLFyf{margin-top:-35px;}.a4bIc{display:flex;flex:1;flex-wrap:wrap}.pR49Ae{color:transparent;flex:100%;white-space:pre;height:34px}.pR49Ae span{background:url("/images/experiments/wavy-underline.png") repeat-x scroll 0 100% transparent;padding:0 0 10px 0;}
