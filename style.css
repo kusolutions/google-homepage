@@ -9,6 +9,22 @@
   position: relative;
 
   }
+
+  .upper-left {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+  }
+
+  .upper-right {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
   a {
     text-decoration: none;
     color: rgb(39, 38, 38);
@@ -35,7 +51,17 @@
   }
 
   .footer {
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 
+  .footer2 {
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    right:0;
   }
 
 
@@ -50,54 +76,38 @@
   }
 
   .googleimage {
-    position: relative;
-    max-height: 100%;
-    max-width: 100%;
-    width: 50%;
-    height: 50%;
-    display: -webkit-inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    top: 300px;
-    left: 250px;
+    left: 0;
+    line-height: 200px;
+    margin-top: -180px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
   }
 
   .round {
-    width: 30%;
-    border-radius: 20px;
-    border: 1px rgb(99, 99, 99) solid;
-    padding: 8px 8px 5px 31px;
-    position: relative;
-    margin: auto;
-    height: 31px;
-    font-size: 25px;
-    top: 240px;
-    left: 700px;
+    border-radius: 40px;
+    border: 1px rgb(226, 226, 226) solid;
+    padding: 10px 10px 15px 50px;
+    position: absolute;
+    margin-top: 0;
+    position: absolute;
+    text-align: left;
+    top: 53%;
+    width: 40%;
+    left: 450px;
   }
   input:hover {
-    box-shadow: 1px 1px 3px grey;
+    box-shadow: 0px 1px 1px grey;
   }
-  .round input {
+  
+  /* .round input {
     position: absolute;
     height: 50px;
     width: 50px; 
   }
 
-  .mainnav {
-    margin: 0 auto;
-    position: relative;
-    display: left;
-    color: black;
-    text-align: middle;
-    font-size: 14px;
-    width: 25%;
-    top: 260px;
-    left: 620px;
-    border-radius: 10x;
-  }
-  
+ 
    
   .corner {
     position: relative;
