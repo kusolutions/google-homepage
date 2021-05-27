@@ -22,7 +22,7 @@
     list-style-type: none;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 100px;
   }
 
   a {
@@ -69,60 +69,103 @@
     border-bottom: 1px solid;
   }
 
-  
-  .responsive {
-    max-width: 100%;
-    height: auto;
-  }
 
   .googleimage {
     left: 0;
     line-height: 200px;
-    margin-top: -180px;
+    margin-top: -190px;
     position: absolute;
     text-align: center;
     top: 50%;
     width: 100%;
   }
-
   .round {
     border-radius: 40px;
     border: 1px rgb(226, 226, 226) solid;
     padding: 10px 10px 15px 50px;
-    position: absolute;
     margin-top: 0;
     position: absolute;
     text-align: left;
-    top: 53%;
-    width: 40%;
-    left: 450px;
+    top: 320px;
+    width: 25%;
+    left: 520px;
+    font-size: 20px;
   }
   input:hover {
-    box-shadow: 0px 1px 1px grey;
-  }
-  
-  /* .round input {
-    position: absolute;
-    height: 50px;
-    width: 50px; 
+    box-shadow: 1px 1px 1px grey;
   }
 
- 
-   
-  .corner {
-    position: relative;
-    top: 3px;
-    left: 5px;
-    height: 20px;
-    width: 20px;
-    border-radius: 10px;
-    border: none;
-    background: #000; 
+  input:active {
+    box-shadow: 1px 1px 1px grey; 
+  }
+
+  .searchicon {
+    width: 25%;
+    position: absolute;
+    top: 335px;
+    left: 540px;
+  }
+
+  .micicon {
+    width: 25%;
+    position: absolute;
+    top: 335px;
+    left: 900px;
   }
   
-  .search {
+  button {
+    color: #444444;
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 7px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    outline: none;
+    position: absolute;
+    top: 420px;
+    left: 610px;
+}
+
+button:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+buttonmain:active {
+  box-shadow: inset 1px 1px 1px #DFDFDF;   
+}
+
+  .signin {
+    font-size: 15px;
+    background: #1E90FF;
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 10px;
+    right: 500px;
+}
+
+
+
+  .parent {
     position: relative;
-    width: 190px;
-    height: 50px;
+    top: 0;
+    left: 0;
   }
-  
+
+  .footerbar {
+    background: rgb(224, 224, 224);
+    height: 45px;
+    width: 100%;
+    position: relative;
+    top: 730px;
+    
+  }
